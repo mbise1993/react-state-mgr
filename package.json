@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "inversify": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -49,6 +50,11 @@
     "eslint-plugin-react-hooks": "^4.0.2",
     "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
     "prettier": "^1.19.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.10.1",
     "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
   }
 }
